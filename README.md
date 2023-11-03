@@ -1,10 +1,13 @@
-- 👋 Hi, I’m @Rithikugade
-- 👀 I’m interested in ... data science
-- 🌱 I’m currently learning ... data science
-- 💞️ I’m looking to collaborate on ... cisco
-- 📫 How to reach me ... contact 7013964853
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
-<!---
-Rithikugade/Rithikugade is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+# Test the factorial function
+number = 5
+result = factorial(number)
+print(f"The factorial of {number} is {result}")
+
+
 --->
